@@ -1,0 +1,108 @@
+/*цвет  основного текста #757575 */
+/* цвет вторичного текста #212121 */
+/*цвет акцента #2196F3 */
+
+:root {
+  --primary-text-color: #757575;
+  --second-text-color: #212121;
+  --accent-color: #2196f3;
+}
+
+body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.logo {
+  color: #000000;
+}
+.web-logo {
+  color: var(--accent-color);
+}
+/* Navigation */
+.site-nav .link {
+  color: var(--second-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* Authentific*/
+.auth-nav .link {
+  color: var(--primary-text-color);
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-color);
+}
+/* Hero */
+.hero-title {
+  color: #e5e5e5;
+}
+
+/* Section */
+.section-title {
+  color: var(--second-text-color);
+}
+/* Features */
+.feature-list .title {
+  color: var(--second-text-color);
+}
+
+/* Our jobs */
+.job-list .title {
+  color: #ffffff;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+/* Our team */
+.teamsection {
+  background-color: #f5f4fa;
+}
+.team-list .title {
+  color: var(--second-text-color);
+}
+.team-list > li {
+  background-color: #ffffff;
+}
+.team-list .link {
+  color: var(--primary-text-color);
+}
+.team-list .link:hover,
+.team-list .link:focus {
+  color: var(--accent-color);
+}
+/* footer address */
+.underside {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+.underside .logo {
+  color: #ffffff;
+}
+.underside .link {
+  color: rgba(255, 255, 255, 0.1);
+}
+.underside .link:hover,
+.underside .link:focus {
+  color: var(--accent-color);
+}
+.underside .mailtel {
+  color: rgba(255, 255, 255, 0.6);
+}
+.underside .copyright {
+  color: rgba(255, 255, 255, 0.4);
+}
+/* button */
+.button {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
