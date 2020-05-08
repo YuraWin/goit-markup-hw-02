@@ -1,0 +1,35 @@
+/* Hero */
+.hero-title {
+  color: #e5e5e5;
+  letter-spacing: 0.06em;
+}
+/* Features */
+.feature-list .title {
+  color: var(--second-text-color);
+}
+/* Our jobs */
+.job-list .title {
+  color: #ffffff;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+/* Our team */
+.teamsection {
+  background-color: #f5f4fa;
+}
+.team-list .title {
+  color: var(--second-text-color);
+}
+.team-list > li {
+  background-color: #ffffff;
+}
+.team-list .link {
+  color: var(--primary-text-color);
+}
+.team-list .link:hover,
+.team-list .link:focus {
+  color: var(--accent-color);
+}
+/* Section */
+.section-title {
+  color: var(--second-text-color);
+}

@@ -1,0 +1,22 @@
+/* Batton filter */
+.buttonselect {
+  color: var(--second-text-color);
+  background-color: #f4f5fa;
+  font-family: inherit;
+}
+.buttonselect.active,
+.buttonselect:hover {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+/* Our works */
+.works-title {
+  color: var(--second-text-color);
+  letter-spacing: 0.06em;
+}
+.works-declar {
+  color: var(--second-text-color);
+}
+.works-type {
+  color: var(--primary-text-color);
+}
