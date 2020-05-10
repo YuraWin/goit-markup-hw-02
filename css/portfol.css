@@ -1,8 +1,14 @@
-/* Batton filter */
+/* Button filter */
+button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+}
 .buttonselect {
   color: var(--second-text-color);
   background-color: #f4f5fa;
-  font-family: inherit;
 }
 .buttonselect.active,
 .buttonselect:hover {
@@ -12,11 +18,20 @@
 /* Our works */
 .works-title {
   color: var(--second-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
   letter-spacing: 0.06em;
 }
 .works-declar {
   color: var(--second-text-color);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
 }
 .works-type {
   color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
 }
