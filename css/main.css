@@ -1,6 +1,7 @@
 /* Hero */
 .hero-title {
   color: #e5e5e5;
+  font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
   text-align: center;
@@ -52,9 +53,13 @@
 .team-list .link {
   color: var(--primary-text-color);
 }
-.team-list .link:hover,
-.team-list .link:focus {
+.team-list .link:hover {
   color: var(--accent-color);
+}
+/* Clients */
+.section .clients:hover,
+.section .clients:focus {
+  background-color: var(--accent-color);
 }
 /* Section */
 .section-title {
