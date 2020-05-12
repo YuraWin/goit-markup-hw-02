@@ -68,6 +68,7 @@ a {
 }
 /* Logo */
 .underside .logo {
+  font-size: 22px;
   color: #ffffff;
 }
 .underside address {
